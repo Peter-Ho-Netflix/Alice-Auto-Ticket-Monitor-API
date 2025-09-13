@@ -3,17 +3,23 @@
   "token": {
     "my": "登陆小程序后抓包获取token"
   },
+  "platforms": {
+    "dm": "大麦",
+    "my": "猫眼",
+    "pxq": "票星球",
+    "fwd": "纷玩岛"
+  },
   "monitor_list": [
     {
       "show_id": "374212",
       "show_name": "banG",
-      "platform": 1,
+      "platform": "dm",
       "deadline": "2025-02-15 00:00:00"
     },
     {
       "show_id": "379615",
       "show_name": "测试",
-      "platform": 1,
+      "platform": "dm",
       "deadline": "2025-02-15 00:00:00"
     }
   ],

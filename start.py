@@ -13,13 +13,13 @@ from email_notifier import EmailNotifier
 
 
 def get_task(show: dict) -> Union[DM, MY, FWD, PXQ, None]:
-    if show.get("platform") == 0:
+    if show.get("platform") == "dm":
         return DM(show)
-    elif show.get("platform") == 1:
+    elif show.get("platform") == "my":
         return MY(show)
-    elif show.get("platform") == 2:
+    elif show.get("platform") == "fwd":
         return FWD(show)
-    elif show.get("platform") == 3:
+    elif show.get("platform") == "pxq":
         return PXQ(show)
     else:
         return None
