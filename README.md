@@ -32,7 +32,7 @@ docker run -d --restart=unless-stopped -v /etc/ticket-monitor/config.json:/app/c
 |-----------|---------|-------------------------------------------------------------------|
 | show_id   | 演出id    | 通过抓包获取，找到类似于`perfromId` `projectId` `showId` 等的关键字即可              |
 | show_name | 演出名称    | 可以任意填写，自己好记即可                                                     |
-| platform  | 演出的监控平台 | 和`show_id`的平台对应，`platform`参照：(`大麦: 0` `猫眼: 1` ` 纷玩岛: 2` `票星球: 3`) |
+| platform  | 演出的监控平台 | 和`show_id`的平台对应，`platform`参照：(`大麦: dm` `猫眼: my` ` 纷玩岛: fwd` `票星球: pxq`) |
 | deadline  | 监控的截止时间 | 截止时间内进行监控，超过截止时间则停止监控,需按照`2000-01-01 00:00:00`格式填写                |
 
 
@@ -49,3 +49,5 @@ docker run -d --restart=unless-stopped -v /etc/ticket-monitor/config.json:/app/c
 原文链接：<a href="https://bbs.kanxue.com/thread-279165.htm">[看雪] 某麦网回流票监控，sing参数分析</a>
 
 原文链接：<a href="https://www.52pojie.cn/forum.php?mod=viewthread&tid=1845064&extra=page%3D1%26filter%3Dtypeid%26typeid%3D378">[吾爱破解] 某麦网回流票监控，sing参数分析</a>
+
+# API特性
