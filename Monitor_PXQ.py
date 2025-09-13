@@ -27,6 +27,7 @@ class PXQ(Monitor):
     def get_show_infos(self):
         show_id = self.show_info.get('show_id')
         response = self.request(f"https://m.piaoxingqiu.com/cyy_gatewayapi/show/pub/v3/show/{show_id}/sessions_static_data")
+        print(response.text)
         show_info = json.loads(response.text)
         for session in show_info.get("data").get("sessionVOs"):
             session_id = session.get("bizShowSessionId")

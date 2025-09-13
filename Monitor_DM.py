@@ -31,6 +31,7 @@ class DM(Monitor):
     def get_show_infos(self):
         show_id = self.show_info.get('show_id')
         response = self.request(self.show_url(show_id))
+        print(response.text)
         data = self.get_data_from_response(response)
         show_info = data.get("detailViewComponentMap").get("item")
         for session in show_info.get("item").get("performBases"):
