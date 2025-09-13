@@ -32,7 +32,7 @@
     "port": 8000,
     "host": "0.0.0.0",
     "title": "大麦、猫眼、纷玩岛、票星球回流票监控系统API",
-    "description": "本API用于大麦、猫眼、纷玩岛、票星球回流票监控系统，提供演出信息、座位信息、价格信息等。便于其他程序调用。基于ThinkerWen/TicketMonitoring修改，通过Fastapi二次开发，原项目见：https://github.com/ThinkerWen/TicketMonitoring",
+    "description": "本API用于大麦、猫眼、纷玩岛、票星球回流票监控系统，提供演出信息、座位信息、价格信息等。便于其他程序调用。\n基于ThinkerWen/TicketMonitoring修改，通过Fastapi二次开发，原项目见：https://github.com/ThinkerWen/TicketMonitoring\n本项目同样开源",
     "version": "1.0.0",
     "contact": {
       "name": "ThinkerWen",
@@ -40,7 +40,7 @@
       "email": "xx@qq.com"
     },
     "license_info": {
-      "name": "MIT",
+      "name": "License MIT",
       "url": "https://github.com/ThinkerWen/TicketMonitoring/blob/main/LICENSE"
     },
     "terms_of_service": "https://github.com/ThinkerWen/TicketMonitoring/blob/main/TERMS.md",
